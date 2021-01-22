@@ -1,14 +1,14 @@
 // 1. kilometerToMeter
 
-/**function kilometerToMeter(kilometer){
+function kilometerToMeter(kilometer){
     var meter = kilometer*1000;
     return meter;
 
 }
 var meter = kilometerToMeter(10);
-console.log(meter); 
+console.log(meter);  
 
-// 3. hotelCost
+ //2. hotelCost
 
 function hotelCost(days){
     var cost = 0;
@@ -33,9 +33,9 @@ function hotelCost(days){
 var totalcost = hotelCost(60);
 console.log(totalcost); 
 
-// 3. megaFriends
+// 4. megaFriend
 
-String = ['farzana', 'shimul','urmi','samia','nishita barua'];
+String = ['farzana', 'shimul','urmi','samia','moushumi'];
 
 function megaFriend(arr){
     let result = '';
@@ -47,21 +47,5 @@ function megaFriend(arr){
     }
     return result;
 }
-console.log(megaFriend(String)); */
+console.log(megaFriend(String)); 
 
-// 4. 
-
-function budgetCalculator(watch, phone, laptop){
-    cost = 0;
-    var watch =  50;
-
-    var phone =  100;
-    var laptop = 500;
-
-    result = (watch*50 + phone*100 + laptop*500);
-    
-    return cost;
-    
-}
-var cost = budgetCalculator(2,2,2);
-console.log(budgetCalculator(result));
